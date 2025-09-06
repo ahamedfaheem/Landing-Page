@@ -100,23 +100,24 @@ li, ul {
     .quote-box {
         background-color: #FFC72C;
         color: black;
-        padding: 100px 250px;
+        padding: 90px 250px;
         display: flex;
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
     #quote {
-        font-size: 36px;
+        font-size: 32px;
          font-weight: normal;
         text-align: start;
         color: #1D428A;
-        max-width: 800px;
+        max-width: 900px;
     }
     #author, #about-author {
         font-size: 18px;
         font-style: italic;
         color: #1D428A;
-        margin-left: 40%;
-        margin-top: -20px;
+        margin-left: 70%;
+        margin-top:  10px;
+        margin-bottom: -20px;
     }
