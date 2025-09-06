@@ -97,27 +97,41 @@ li, ul {
         justify-content: center;
         align-items: center;
     }
-    .quote-box {
+
+    .section-3 {
         background-color: #FFC72C;
-        color: black;
-        padding: 90px 250px;
         display: flex;
         flex-direction: column;
+        height: 120px;
+        min-height: 300px;
+        justify-content: center;
+    }
+
+    .quote-box {
+        display: flex;
+        flex-direction: column;
+        max-width: 750px;
         gap: 20px;
-        align-items: center;
+        flex: 1 1 auto;
+        justify-content: center;
+        align-self: center;
     }
     #quote {
         font-size: 32px;
          font-weight: normal;
-        text-align: start;
         color: #1D428A;
-        max-width: 900px;
+        max-width: 1000px;
     }
-    #author, #about-author {
+    #author {
         font-size: 18px;
         font-style: italic;
         color: #1D428A;
-        margin-left: 70%;
-        margin-top:  10px;
+        margin-left: 80%;
         margin-bottom: -20px;
+    }
+    #about-author {
+        font-size: 16px;
+        font-style: italic;
+        color: #1D428A;
+        margin-left: auto;
     }
